@@ -133,6 +133,7 @@ class Builder:
                "-DBUILD_opencv_videostab=OFF",
                "-DBUILD_opencv_highgui=OFF",
                "-DBUILD_opencv_superres=OFF",
+            #    "-DBUILD_opencv_stitching=ON",
                "-DBUILD_opencv_stitching=OFF",
                "-DBUILD_opencv_java=OFF",
                "-DBUILD_opencv_js=ON",

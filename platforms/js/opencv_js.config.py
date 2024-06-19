@@ -21,6 +21,7 @@ imgproc = {
         'Laplacian',
         'HoughLines',
         'HoughLinesP',
+        'applyColorMap',
         'HoughCircles',
         'Scharr',
         'Sobel',
@@ -209,6 +210,17 @@ calib3d = {
         'fisheye_projectPoints',
     ],
 }
+
+# custom={
+#     'Stitcher':['blender','bundleAdjuster','cameras','component','composePanorama','compositingResol','create', \
+#                 'ERR_CAMERA_PARAMS_ADJUST_FAIL','ERR_HOMOGRAPHY_EST_FAIL','ERR_NEED_MORE_IMGS','estimateTransform','estimator','exposureCompensator',\
+#                 'featuresFinder','featuresMatcher','interpolationFlags','matchingMask','Mode','OK','ORIG_RESOL','panoConfidenceThresh','PANORAMA','registrationResol',\
+#                 'resultMask','SCANS','seamEstimationResol','seamFinder','setBlender','setBundleAdjuster','setCompositingResol','setEstimator','setExposureCompensator',\
+#                 'setFeaturesFinder','setFeaturesMatcher','setInterpolationFlags','setMatchingMask','setPanoConfidenceThresh','setRegistrationResol',\
+#                 'setSeamEstimationResol','setSeamFinder','setTransform','setWarper','setWaveCorrection','setWaveCorrectKind',\
+#                 'Status','stitch','warper','waveCorrection','waveCorrectKind','workScale'],
+#     'detail':[]
+# }
 
 white_list = makeWhiteList([core, imgproc, objdetect, video, dnn, features2d, photo, calib3d])
 
